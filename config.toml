@@ -7,7 +7,6 @@ theme = "hugrid"
 contentdir = "content"
 datadir = "data"
 layoutdir = "layouts"
-publishdir = "../showcases"
 
 [params]
     # Meta
