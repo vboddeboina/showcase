@@ -10,7 +10,9 @@ install:
 
 # Build the website
 script:
-  - /binaries/hugo
+ - set myvar=%cd%
+ - echo %myvar%
+ - binaries/hugo
 
 # Deploy to GitHub pages
 deploy:
