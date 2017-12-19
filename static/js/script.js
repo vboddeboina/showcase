@@ -26,7 +26,7 @@
             itemType ? $(".card-main--"+itemType).show():$(".card-main").show();
         },
         filterByAll : function(e){
-
+                // placeholder
         },
         filterByActivities : function(e){
 
