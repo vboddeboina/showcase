@@ -13,9 +13,9 @@
 		<link rel="shortcut icon" href="https://www.tibco.com/sites/tibco/files/favicon_0.ico" type="image/vnd.microsoft.icon">
 		<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/default.css" />
 		<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/component.css" />
-		<link rel="stylesheet" href="{{ .Site.Params.siteAssetUrl }}vendor/bootstrap/dist/css/bootstrap.min.css">
-		<link rel="stylesheet" href="{{ .Site.Params.siteAssetUrl }}vendor/animate.css/animate.min.css">
-		<link rel="stylesheet" href="{{ .Site.Params.siteAssetUrl }}css/main.css">
+		<link rel="stylesheet" href="{{ .Site.BaseURL }}vendor/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="{{ .Site.BaseURL }}vendor/animate.css/animate.min.css">
+		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css">
 		<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/showcase.css" />
 		{{ range .Site.Params.custom_css }}
 			<link rel="stylesheet" href="{{ . }}">
