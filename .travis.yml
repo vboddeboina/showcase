@@ -11,9 +11,13 @@ script:
 
 # Deploy to GitHub pages
 deploy:
+  local_dir: public
+  repo: vboddeboina/vboddeboina.github.io # This is the slug of the repo you want to deploy your site to
+  target_branch: master # GitHub pages branch to deploy to (in other cases it can be gh-pages)
   provider: pages
   skip_cleanup: true
-  local_dir: public
   github_token:  fqvV7zU4ubaPeisDNzfz # Set in travis-ci.org dashboard
+  email: vboddebo@tibco.com
+  name: "vboddeboina"
 on:
     branch: master
